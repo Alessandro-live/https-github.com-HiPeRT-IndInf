@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-const int inputs_size = 2;
-const char inputs[] = {'b', 'c'};
-//const int inputs_size = 4;
-//const char inputs[] = {'a', 'a', 'b', 'c'};
+// const int inputs_size = 2;
+// const char inputs[] = {'b', 'c'};
+const int inputs_size = 4;
+const char inputs[] = {'a', 'a', 'b', 'c'};
 
+// This won't work, unless you declare 'i' as global
 // bool input_ended()
 // {
 	// return i >= inputs_size;
@@ -17,7 +18,8 @@ const char inputs[] = {'b', 'c'};
  */
 char next()
 {
-	static int i = 0;
+	//TODO add logics to return 'x'
+	static int i = 0; // 'i' doesn't get re-initialized every time we enter this func, as it's marked STATIC
 	return inputs[i++];
 }
 
@@ -34,7 +36,7 @@ int main()
 		switch(state)
 		{
 			case 2:
-				if(c != 'a')
+				if(c != 'a') // You can avoid goto...
 					goto error;
 				else
 					state = 0;
