@@ -12,6 +12,6 @@ This is official repository of the course Industrial Informatics LT, Year 2024/2
 
 ## Folder structure
 
-- Code/ --> Code snippets & tutorials [*coming soon*]
+- Code/ --> Code snippets & tutorials
 - Exams/ --> Past/example of exams [*coming soon*]
 - Slides/ --> Course slides
