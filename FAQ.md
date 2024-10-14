@@ -11,7 +11,6 @@ Innanzitutto, direi queste slide. I libri non sono obbligatori, ma contengono co
 Sara' necessario un computer per svolgere le esercitazioni, e una (o piu') delle board embedded segnalate nelle slide.
 Qualora il candidato non potesse/volesse comprarne una, puo' rivolgersi al docente per trovare una soluzione.
 
-
 #### Non ho ottenuto le propedeuticità. Posso lo stesso effettuare l’esame?
 
 Non ci sono propedeuticità, se non un minimo di esperienza di programmazione C/C++, preferibilmente in ambiente GNU/Linux
@@ -22,19 +21,15 @@ Espulsione diretta dall’aula, senza se e senza ma, a insindacabile giudizio de
 
 Non dite che non ve l’avevo detto.
 
-#### Non sono riuscito a restare alla correzione, il mio compito è ancora valido?
-
-Il compito è ancora valido, ma non è stato corretto, e “vale” un anno. Si prega di contattare i docenti per procedere alla correzione, e ottenere un voto registrabile.
-
 #### Quanto rimane valido un voto?
 
 I voti della prova scritta durano un anno. Qualora lo studente partecipasse alla correzione di una prova scritta successiva, perderebbe il voto precedentemente acquisito. Se uno studente chiede la prova orale, il voto conseguito dura fino alla fine della sessione corrente.
 
-Il voto conseguito dopo la prova orale rimane valido fino a una settimana dopo l’ultimo appello scritto della sessione (o dell’orale equivalente). Dopodiché, o si richiede esplicitamente che venga registrato, o il voto è perso, e il candidato deve rifare lo scritto.
+Il voto conseguito dopo la prova orale rimane valido fino a una settimana dopo l’ultimo appello scritto della sessione (o dell’orale corrispondente). Dopodiché, o si richiede esplicitamente che venga registrato, o il voto è perso, e il candidato deve rifare lo scritto.
 
 #### Dopo la correzione, non sono soddisfatto del voto che ho ottenuto allo scritto. Posso eventualmente riprovare il compito senza perdere il voto?
 
-Sì. Qualora tuttavia il candidato consegnasse e partecipasse alla correzione del secondo tentativo, perderebbe il voto precedentemente acquisito.
+Sì. Qualora tuttavia il candidato consegnasse il secondo tentativo, perderebbe il voto precedentemente acquisito.
 
 #### Quando posso registrare un voto?
 
