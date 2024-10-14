@@ -24,7 +24,7 @@ char next()
  *   -2  : we're in final state
  *   -3  : internal error
  */
-int nextState(int currState, char input)
+int sfn(int currState, char input)
 {
 	switch(currState)
 	{
@@ -68,6 +68,34 @@ int nextState(int currState, char input)
 	// If we're here, it's an error
 	return -1;
 }
+/*
+ * Computes output. Moore machine.
+ */
+void mfn(int currState)
+{
+	switch(currState)
+	{
+		case 0:
+			cout << "BLUE LED ON" << endl;
+			break;
+			
+		case 1:
+			cout << "YELLOW LED ON" << endl;
+			break;
+			
+		case 2:
+			cout << "YELLOW LED ON" << endl;
+			break;
+			
+		case 3:
+			cout << "BLUE LED ON" << endl;
+			break;
+			
+		default:
+			cout << "RED LED ON" << endl;
+			break;
+	}
+}
 
 bool isFinalState(int s)
 {
@@ -98,14 +126,16 @@ int main()
 		
 		cout << "Next input word is " << c << ", current state is " << currState << endl;
 		
-		state = nextState(currState, c);
+		state = sfn(currState, c);
+		
+		cout << "Next state will be " << state << endl;
+
+		mfn(state);
 		
 		// Check for errors
 		if(state < 0)
 			goto error;
-		
-		cout << "Next state will be " << state << endl;
-		
+
 		if(isFinalState(state))
 			break;
 		
